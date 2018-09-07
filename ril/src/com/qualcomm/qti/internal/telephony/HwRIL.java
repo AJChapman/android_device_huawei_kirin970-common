@@ -100,6 +100,7 @@ public class HwRIL extends RIL {
         }
     }
 
+    /*
     @Override
     protected RadioResponse createRadioResponse(RIL ril) {
         return new HwRadioResponse(ril);
@@ -109,6 +110,7 @@ public class HwRIL extends RIL {
     protected RadioIndication createRadioIndication(RIL ril) {
         return new HwRadioIndication(ril);
     }
+    */
 
     Object processResp(RadioResponseInfo i) {
         return processResponse(i);
